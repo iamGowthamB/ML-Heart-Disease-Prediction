@@ -21,7 +21,7 @@ def train_and_save_model():
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
     
-    # Train Model (Best params from previous tuning: n_estimators=200, max_depth=10)
+    # Train Model (Best params from previous tuning: n_estimators=200, max_depth=10).
     # Using hardcoded best params for simplicity in this script, or we could re-run grid search.
     # We'll use robust defaults/approx best params.
     rf_model = RandomForestClassifier(n_estimators=200, max_depth=10, random_state=42)

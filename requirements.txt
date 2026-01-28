@@ -5,5 +5,5 @@ seaborn
 scikit-learn
 jupyter
 streamlit
-joblib
 plotly
+joblib

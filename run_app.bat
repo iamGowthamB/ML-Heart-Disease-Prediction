@@ -1,7 +1,7 @@
 @echo off
-echo =======================================================
+echo ======================================================
 echo      Heart Disease Prediction System - Launcher
-echo =======================================================
+echo ======================================================
 echo.
 echo [1/2] Checking and Installing Dependencies...
 python -m pip install -r requirements.txt --quiet

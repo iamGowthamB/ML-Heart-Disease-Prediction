@@ -204,6 +204,6 @@ with c_output:
         st.info("👈 Please complete the form on the left to generate a report.")
         st.image("https://img.freepik.com/free-vector/heart-rate-monitor_1308-102573.jpg", caption="CardioLens AI System Ready")
 
-# Footer
+# Footer section
 st.markdown("---")
 st.markdown("<div style='text-align: center; color: #94a3b8; font-size: 0.8rem;'>© 2026 CardioLens Medical Systems. For Research Use Only.</div>", unsafe_allow_html=True)

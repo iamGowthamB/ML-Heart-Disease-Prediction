@@ -27,7 +27,7 @@ def generate_heart_data_csv(n_samples=400):
     df = pd.DataFrame(data)
     
     # Generate target with influence from new columns too
-    # Logic: Higher risk factors -> higher score
+    # Logic: Higher risk factors -> higher  score
     score = (df['age'] * 0.3) + \
             (df['cp'] * 5) + \
             (df['chol'] * 0.05) + \

@@ -19,7 +19,7 @@ nb['cells'].append(new_markdown_cell("""
 - **Features**: standard heart disease indicators + BMI, Smoker, Family History.
 """))
 
-# Section 2: Imports
+# Section 2: Imports and Setup
 nb['cells'].append(new_code_cell("""
 import pandas as pd
 import numpy as np
