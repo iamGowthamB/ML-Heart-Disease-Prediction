@@ -1,3 +1,7 @@
+# Author: Gowtham B
+# Project: Heart Disease Prediction using Random Forest & Cross-Validation
+# Type: Individual Portfolio Project
+
 import streamlit as st
 import pandas as pd
 import numpy as np
